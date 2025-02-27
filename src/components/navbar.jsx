@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import Swal from 'sweetalert2';
-import './Navbar.css';
+import './navbar.css';
 
 function Navbar() {
   const { isAuthenticated, user, logout } = useAuth();
