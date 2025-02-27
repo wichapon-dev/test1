@@ -1,0 +1,79 @@
+.b-g {
+  margin: 0% 2.5%;
+  background-color: rgb(255, 255, 255);
+  margin-top: auto;
+  padding: 5px;
+  border-radius: 70px;
+  background-color: white;
+}
+
+.all-problems-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.problems-list {
+  flex-direction: column;
+}
+
+.problem-card {
+  align-items: center;
+  margin: 30px auto;
+  cursor: pointer;
+  display: flex;
+  padding: 0px 10px 0 30px;
+  max-width: 75%;
+  border-color: black;
+  border-radius: 15px;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.l1 {
+  padding: 0px 0px 0px;
+  display: flex;
+
+}
+
+.l1 p {
+  padding: 0px 23px;
+}
+
+.btn {
+  margin: 0% 10px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  background-color: red;
+  transition: border-color 0.5s;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button.active {
+  background-color: #5579FD;
+  color: white;
+  border: 1px solid #5579FD;
+}

@@ -1,0 +1,223 @@
+.problem-detail-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.problem-detail {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.problem-detail h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.problem-detail p {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.problem-files {
+  margin-top: 20px;
+}
+
+.problem-files h4 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.problem-files a {
+  display: block;
+  color: #5579fd;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.problem-files a:hover {
+  text-decoration: underline;
+}
+
+.problem-meta {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #777;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.problem-meta .PD {
+  font-size: 1.1em;
+  color: #777;
+}
+
+.problem-stats {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.problem-stats .span {
+  font-size: 1.2em;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.problem-stats .span svg {
+  margin-right: 5px;
+}
+
+.problem-comments {
+  margin-top: 40px;
+}
+
+.problem-comments .h3 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.comment {
+  overflow-wrap: break-word;
+  color: black;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.addcomment {
+  max-width: 95%;
+  max-height: 30px;
+  color: black;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comment p {
+  text-align: left;
+  margin: 0;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.comment p:first-of-type {
+  margin-bottom: 10px;
+}
+
+.comment p:last-of-type {
+  font-size: 0.90em;
+  color: #888;
+  text-align: left;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+.addcommentsubmit {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  color: #fff;
+  background-color: #5579fd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-addcomment:hover {
+  background-color: #405dcf;
+}
+
+.file-icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.file-icon.pdf {
+  color: red;
+}
+
+.file-icon.image {
+  color: green;
+}
+
+.file-icon.word {
+  color: blue;
+}
+
+.file-icon.default {
+  color: grey;
+}
+
+.file-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.file-link:hover {
+  text-decoration: underline;
+}
+
+.status-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-container label {
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  margin: auto
+}
+
+.status-container select {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.status-container select:focus {
+  border-color: #5579fd;
+  outline: none;
+}
